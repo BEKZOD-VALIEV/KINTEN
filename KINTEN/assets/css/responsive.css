@@ -1,0 +1,37 @@
+@media screen and (min-width: 992px) {
+    .navbar-brand img{
+        width: 170px;
+    }
+    .navbar-brand{
+        margin-right: 0;
+        padding: 0 4em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .baby-bg{
+        min-width: 30vh;
+    }
+    .home-img-1 img{
+        min-width: 200px;
+    }
+    .home-img-2 img{
+        min-width: 200px;
+    }
+    .program{
+        width: 100%;
+        height: 465px;
+        background: url(../img/program-bg.svg) center no-repeat;
+    }
+    .links{
+        width: 350px;
+        padding: 1rem;
+        margin: 3rem 5rem;
+        border: 2px dashed rgb(210, 210, 210);
+        border-radius: 8rem;
+    }
+    .container_2{
+        max-width: 70%;
+        margin: auto;
+    }
+}

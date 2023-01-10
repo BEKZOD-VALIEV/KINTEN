@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/custom.css
+    ">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <title>Kinten</title>
+
+</head>
+
+<body>
+  <header class="baby-bg" style="background-image: url(./assets/img/home-bg.jpg);">
+    <div class="nav-bar">
+      <nav class="top-nav bg-white mt-2" id="home">
+        <div class="container">
+          <div class="row flex-row-reverse flex-md-row justify-content-evenly">
+            <div class="col-auto">
+              <span>Welcome visitor you can <a href="#">Login or Register!</a></span>
+            </div>
+            <div class="col-auto">
+              <span>Call us: <a href="#">(+066)123-456-88-55</a></span>
+            </div>
+            <div class="col-auto">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-basket2 bg-danger text-white rounded-circle" viewBox="0 0 16 16">
+                <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z"/>
+                <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z"/>
+              </svg>
+              <span>Add to cart <br>(item:02)</span>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand d-lg-none" href="#">
+            <img src="./assets/img/logo.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about us">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <a class="navbar-brand d-none d-lg-block" href="#">
+                <img src="./assets/img/logo.png" alt="logo">
+              </a>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact us">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container" style=" padding: 200px 0 100px 0;">
+      <div class="row flex-column-reverse flex-md-row text-center text-md-start">
+        <div class="col-12 col-md-6">
+          <h6 class="text-secondary mb-3 text-grey fs-5">BABY CARE & KINDERGARTEN SCHOOL</h6>
+          <h1 class="fs-10">Welcome to Mango <br>School Kindergarten</h1>
+          <p class="text-secondary mb-4 mt-4 text-grey fs-5">We foster a nurturing environment that encourages learning
+            through exploration and discovery to support the development of the whole child.</p>
+          <button type="button" class="btn btn-danger btn-lg">Contact Us</button>
+        </div>
+        <div class="col-12 col-md-6"></div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="100%" height="130" preserveAspectRatio="none" viewBox="0 0 1540 300">
+      <g mask="url(&quot;#SvgjsMask1032&quot;)" fill="none">
+          <path d="M 0,116 C 77,138.8 231,250.8 385,230 C 539,209.2 616,21.6 770,12 C 924,2.4 1001,156.4 1155,182 C 1309,207.6 1463,148.4 1540,140L1540 300L0 300z" fill="rgba(255, 251, 251, 1)"></path>
+      </g>
+      <defs>
+          <mask id="SvgjsMask1032">
+              <rect width="1540" height="300" fill="#ffffff"></rect>
+          </mask>
+      </defs>
+  </svg>
+  </header>
+  <main>
+    <section id="About" class="about">
+      <div class="container">
+        <div class="row flex-column-reverse flex-md-row">
+          <div class="col-12 col-md-6">
+              <h6 class="text-secondary">ABOUT US</h6>
+              <div class="line"></div>
+              <h1 class="fst-italic pb-4">20+ years experience Our <br>School & Kindergarten.</h1>
+              <p class="text-black-50 fs-6 fw-bold lh-large pb-3">On the other hand, we denounce with righteous <br>indiation and dislike men who are so beguiled and <br>demoralized by the charms of pleasure of the moment, <br>so blinded desire, that they cannot foresee the pain and <br>trouble that around to ensue; and equal blame <br>belongs. On the other hand, we denounce with righteous <br>indiationn and dislike men who are so beguiled</p>
+              <button type="button" class="btn btn-info text-white btn-lg">More About</button>
+          </div>
+          <div class="col-12 col-md-6 p-5-0">
+            <div class="home-img_1">
+              <img class="img-fluid" src="./assets/img/home-img-2.jpeg" alt="">
+            </div>
+            <div class="home-img_2">
+              <img class="img-fluid" src="./assets/img/home-img-1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="clouds pt-5 pb-5 text-center fs-3 fw-bold">
+          <ul>
+            <li style="color: rgb(0, 195, 195); border: 3px dashed rgb(0, 195, 195);">
+              <span>25+<br>Staff</span>
+            </li>
+            <li style="color: rgb(249, 77, 105); border: 3px dashed rgb(249, 77, 105);">
+              <span>100+<br>Students</span>
+            </li>
+            <li style="color: rgb(103, 181, 0); border: 3px dashed rgb(103, 181, 0)">
+              <span>07<br>Classes</span>
+            </li>
+            <li style="color: rgb(255, 183, 0); border: 3px dashed rgb(255, 183, 0);">
+              <span>25+<br>Events</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="" class="program"> 
+      <div class="container">
+        <div class="section-title text-center pt-5">
+          <p class="fs-small fw-bolder text-danger">OUR PROGRAM</p>
+          <h1 class="fs-1 pb-4">Our Classes</h1>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4 img_block pt-5">
+            <div class="class-img">
+              <img class="program-img_1 img-fluid rounded" src="./assets/img/class-1.jpg" alt="" width="430">
+              <div class="icon p-2 d-inline">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-sun" viewBox="0 0 16 16">
+                  <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+                </svg>
+              </div>
+              <div class="container pt-4">
+                <h3>Play School</h3> 
+                <h5 class="d-inline">Price</h5>
+                <span class="text-danger fw-bold">$2.00 <sub>/per month</sub></span>
+                <p class="float-end fw-bold">Seat <span class="text-danger">20</span></p>
+                <p class="pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 img_bloc pt-5">
+            <div class="class-img">
+              <img class="program-img_1 img-fluid rounded" src="./assets/img/class-3.jpeg" alt="" width="405">
+              <div class="icon icon_2 p-2 d-inline">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                </svg>
+              </div>
+              <div class="container pt-4">
+                <h3>Nursery School</h3> 
+                <h5 class="d-inline">Price</h5>
+                <span class="text-danger fw-bold">$2.00 <sub>/per month</sub></span>
+                <p class="float-end fw-bold">Seat <span class="text-danger">20</span></p>
+                <p class="pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 img_bloc pt-5">
+            <div class="class-img">
+              <img class="program-img_1 img-fluid rounded" src="./assets/img/class-2.jpg" alt="" width="365">
+              <div class="icon icon_3 p-2 d-inline">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
+                  <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+                </svg>
+              </div>
+              <div class="container pt-4">
+                <h3>Kindergarten School</h3> 
+                <h5 class="d-inline">Price</h5>
+                <span class="text-danger fw-bold">$2.00 <sub>/per month</sub></span>
+                <p class="float-end fw-bold">Seat <span class="text-danger">20</span></p>
+                <p class="pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container">
+        <div class="section-title text-center pt-5">
+          <p class="fs-small fw-bolder text-success">FEATURES SERVICES</p>
+          <h1 class="fs-1 pb-4">Our Features</h1>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="links active text-danger border-danger">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+                  <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+                </svg>
+              </span>
+              <a class="text-danger fw-bold" href="#">Happy Enveronments</a>
+            </div>
+            <div class="links">
+              <span class="text-success">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-archive" viewBox="0 0 16 16">
+                  <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+              </span>
+              <a class="fw-bold" href="#">Creative Lessons</a>
+            </div>
+            <div class="links">
+              <span class="text-info">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                </svg>
+              </span>
+              <a class="fw-bold" href="#">Active Learning</a>
+            </div>
+            <div class="links">
+              <span class="text-warning">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-controller" viewBox="0 0 16 16">
+                  <path d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z"/>
+                  <path d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z"/>
+                </svg>
+              </span>
+              <a class="fw-bold" href="#">Amazing Playground</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="feature_title pt-5">
+              <h2>Happy Environment <br>Our School.</h2>
+              <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odit error nobis dolore dolores sed, tempore illum animi voluptates eius doloremque delectus necessitatibus. Dolorem distinctio fugit sunt sequi doloremque! Quaerat.
+              Sapiente quisquam repudiandae vitae, ullam accusamus eaque optio itaque sequi! Doloribus minus optio rem assumenda quam iure, enim itaque dicta molestiae sed, nulla ipsum porro harum voluptatibus quia corrupti voluptate!
+              <br>
+              Minima vitae velit quasi distinctio id suscipit ipsam rem numquam et optio molestiae labore magni cum   reprehenderit.</p>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check text-danger" viewBox="0 0 16 16">
+                  <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                </svg>
+              </span>
+              <span class="fw-bold">Asperiores fugit cupiditate, sequi, ab quas possimus hic.</span>
+              <br>
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check text-danger" viewBox="0 0 16 16">
+                  <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                </svg>
+              </span>
+              <span class="fw-bold">Dolor sit amet consectetur adipisicing elit. Quibusdam enim molestiae.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container_1 pt-5">
+        <div class="row">
+          <div class="col-12 col-md-2">
+            <h6 class="text-info">ABOUT US</h6>
+            <h1 class="fs-1 pb-4">Our Classes</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, laudantium obcaecati ipsam dolore velit pariatur dicta molestiae.</p>
+          </div>
+          <div class="col-12 col-md-10">
+            <div class="wrapper">
+              <div class="carousel owl-carousel">
+                 <div class="card card-1">
+                    <img src="./assets/img/features-1.jpg" alt="">
+                    <div class="hover_pink"><button>+</button></div>
+                 </div>
+                 <div class="card card-2">
+                  <img src="./assets/img/features-2.jpg" alt="">
+                  <div class="hover_pink"><button>+</button></div>
+                 </div>
+                 <div class="card card-3">
+                  <img src="./assets/img/features-3.jpg" alt="">
+                  <div class="hover_pink"><button>+</button></div>
+                 </div>
+                 <div class="card card-4">
+                  <img src="./assets/img/features-4.jpg" alt="">
+                  <div class="hover_pink"><button>+</button></div>
+                 </div>
+                 <div class="card card-5">
+                  <img src="./assets/img/home-img-2.jpeg" alt="">
+                  <div class="hover_pink"><button>+</button></div>
+                 </div>
+              </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="" class="schedule">
+      <div class="container pb-5">
+        <div class="section-title text-center pt-5">
+          <p class="fs-small fw-bolder text-danger">EVENT SCHEDULE</p>
+          <h1 class="fs-1 pb-4">Latest Events & Activities</h1>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-12">
+            <div class="teacher_img border-danger">
+              <div class="float-start d-inline pb-5">
+                <img src="./assets/img/teacher-1.jpg" alt="">
+              </div>
+              <div class="teacher_title d-inline fw-bold">
+                <span>20 Octobar,2020</span>
+                <span class="m-5">9.00 - 10.30 Am</span>
+                <h4 class="pt-2">"Indoor Play Areas is simply dummy text of the printing."</h4>
+                <p class="pt-2">By: <span class="text-danger">Alisa brown,</span> School Chermen</p>
+                <p class="pt-2">Location: <span class="text-danger">Hall 1,</span> Building A, Golden Street, South Africa</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12">
+            <div class="teacher_img border-muted">
+              <div class="float-start d-inline pb-5">
+                <img src="./assets/img/teacher-2.jpg" alt="">
+              </div>
+              <div class="teacher_title d-inline fw-bold">
+                <span>20 Octobar,2020</span>
+                <span class="m-5">9.00 - 10.30 Am</span>
+                <h4 class="pt-2">"Indoor Play Areas is simply dummy text of the printing."</h4>
+                <p class="pt-2">By: <span class="text-danger">Alisa brown,</span> School Chermen</p>
+                <p class="pt-2">Location: <span class="text-danger">Hall 1,</span> Building A, Golden Street, South Africa</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12">
+            <div class="teacher_img border-muted">
+              <div class="float-start d-inline pb-5">
+                <img src="./assets/img/teacher-3.jpg" alt="">
+              </div>
+              <div class="teacher_title d-inline fw-bold">
+                <span>20 Octobar,2020</span>
+                <span class="m-5">9.00 - 10.30 Am</span>
+                <h4 class="pt-2">"Indoor Play Areas is simply dummy text of the printing."</h4>
+                <p class="pt-2">By: <span class="text-danger">Alisa brown,</span> School Chermen</p>
+                <p class="pt-2">Location: <span class="text-danger">Hall 1,</span> Building A, Golden Street, South Africa</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="question_area pt-5 fw-bold">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-5">
+              <p class="text-white fs-2 pt-4">Frequently Asked Question Indoor Play Areas?</p>
+              <span class="float-end pt-3 fs-2 fw-bold text-danger">+</span>
+              <p class="text-danger fs-5 pt-4">Efficient Blood Test Management</p>
+              <div class="container">
+                <p class="text-white">Sit amet consectetur adipisicing elit. Molestiae, illo! Atque, praesentium a. Voluptates quisquam tempore, illum deleniti voluptate ut itaque esse.</p>
+              </div>
+              <p class="text-white fs-5 pt-3">What hidden charge choose your pricing plan?</p>
+              <p class="text-white fs-5 pt-3">What Working With Application Core Features?</p>
+              <p class="text-white fs-5 pt-3">What intro the video how to use it?</p>
+              <p class="text-white fs-5 pt-3">What industries do you specialize in?</p>
+            </div>
+            <div class="col-12 col-md-7 text-center pt-5">
+              <div class="container_2">
+                <div class="for_register p-5">
+                  <p class="fs-1 text-white">Contact Us</p>
+                  <div class="for_input">
+                    <form action="#" method="post" id="contact" autocomplete="off">
+                      <input type="text" class="form-control" id="fullname" required placeholder="Fullname" aria-label="Fullname" aria-describedby="basic-addon1">
+                      <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" aria-label="Phone" aria-describedby="basic-addon1" required>
+                      <input type="date" class="form-control" name="bday" aria-label="bday" aria-describedby="basic-addon1" required>
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Email" aria-label="email" aria-describedby="basic-addon1" required>
+                      <button type="submit" class="btn form-control" placeholder="Schedule Appointment"><a href="index.html">Schedule Appointment</a></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials pb-5">
+      <div class="container pt-4">
+        <div class="section-title text-center pt-5">
+          <p class="fs-small fw-bolder text-success">OUR TESTIMONIALS</p>
+          <h1 class="fs-1 pb-4">What Client Says!</h1>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="client-1">
+              <div class="float-start d-inline"><img class="rounded-circle" src="./assets/img/teacher-1.jpg" alt="" width="95" height="95"></div>
+              <div class="img_title d-inline fw-bold">
+                <p class="pt-4">Possimus labore dolore, repellat error <br>nostrum id consequatur magni corrupti <br> cumque beatae enim sed ipsa.</p>
+                <p class="float-end text-muted">Mr. Jems Bond</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="client-1">
+              <div class="float-start d-inline"><img class="rounded-circle" src="./assets/img/teacher-3.jpg" alt="" width="95" height="95"></div>
+              <div class="img_title d-inline fw-bold">
+                <p class="pt-4">Possimus labore dolore, repellat error <br>nostrum id consequatur magni corrupti <br> cumque beatae enim sed ipsa.</p>
+                <p class="float-end text-muted">Mr. Jems Bond</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="subscribe mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-5 col-md-5">
+                <div class="message_svg">
+                  <div class="d-inline float-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-envelope-paper" viewBox="0 0 16 16">
+                      <path d="M4 0a2 2 0 0 0-2 2v1.133l-.941.502A2 2 0 0 0 0 5.4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.4a2 2 0 0 0-1.059-1.765L14 3.133V2a2 2 0 0 0-2-2H4Zm10 4.267.47.25A1 1 0 0 1 15 5.4v.817l-1 .6v-2.55Zm-1 3.15-3.75 2.25L8 8.917l-1.25.75L3 7.417V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v5.417Zm-11-.6-1-.6V5.4a1 1 0 0 1 .53-.882L2 4.267v2.55Zm13 .566v5.734l-4.778-2.867L15 7.383Zm-.035 6.88A1 1 0 0 1 14 15H2a1 1 0 0 1-.965-.738L8 10.083l6.965 4.18ZM1 13.116V7.383l4.778 2.867L1 13.117Z"/>
+                    </svg>
+                  </div>
+                  <div class="subscribe-title d-inline">
+                    <p class="fs-small fw-bold text-success">Our Newsletter</p><br>
+                    <h5 class="fs-4 fw-bold">Subscribe Now!</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-7 col-md-7">
+                <div class="for_email">
+                  <input type="email" name="email" id="email" placeholder="Enter Your Email..." aria-label="email" aria-describedby="basic-addon1" required>
+                  <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+     <div class="container">
+      <div class="row">
+        <div class="col-5 col-md-4 pt-5">
+          <div class="footer pt-5 text-light">
+            <img class="rounded-circle" src="./assets/img/logo.png" alt="logo" width="200">
+            <p class="pt-3 fs-5 fw-bold">There are many variations of passages <br>of Lorem Ipsum available but the <br>majority Nullam sagittis neque</p>
+            <p class="text-white fs-5 fw-bold pt-4">Copywright by <a class="text-danger" href="#">@24webpro</a>. <br>All Rights Reserved</p>
+          </div>
+        </div>
+        <div class="col-5 col-md-4 pt-5">
+          <h6 class="pt-5 text-white">RECENT BLOG</h6>
+          <div class="footer_1 pt-4">
+            <div class="foot_img d-inline float-start">
+              <img src="./assets/img/class-1.jpg" alt="" width="80" height="80">
+            </div>
+            <div class="foot d-inline fs-6">
+              <p class="fw-bold text-success">Consectetur adipisicing elit.</p>
+              <p class="text-light">12-Jun-2018</p>
+              <p class="fw-bold text-info"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-fill text-danger" viewBox="0 0 16 16">
+                <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+              </svg> 12 Comments</p>
+            </div>
+          </div>
+          <div class="footer_1 pt-4">
+            <div class="foot_img d-inline float-start">
+              <img src="./assets/img/class-2.jpg" alt="" width="80" height="80">
+            </div>
+            <div class="foot d-inline fs-6">
+              <p class="fw-bold text-success">Consectetur adipisicing elit.</p>
+              <p class="text-light">12-Jun-2018</p>
+              <p class="fw-bold text-info"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-fill text-danger" viewBox="0 0 16 16">
+                <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+              </svg> 12 Comments</p>
+            </div>
+          </div>
+          <div class="footer_1 pt-4">
+            <div class="foot_img d-inline float-start">
+              <img src="./assets/img/class-3.jpeg" alt="" width="80" height="80">
+            </div>
+            <div class="foot d-inline fs-6">
+              <p class="fw-bold text-success">Consectetur adipisicing elit.</p>
+              <p class="text-light">12-Jun-2018</p>
+              <p class="fw-bold text-info"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-fill text-danger" viewBox="0 0 16 16">
+                <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+              </svg> 12 Comments</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-1 col-md-2 pt-5">
+          <h6 class="pt-5 text-white">COMMUNITY</h6>
+          <div class="linkes link_0">
+              <ul class="list-unstyled pt-2">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Discussions</a></li>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Members</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Help Center</a></li>
+              </ul>
+          </div>
+        </div>
+        <div class="col-1 col-md-2 pt-5">
+          <h6 class="pt-5 text-white">INFORMATION</h6>
+          <div class="linkes link_0">
+              <ul class="list-unstyled pt-2">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Discussions</a></li>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Members</a></li>
+                <li><a href="#">Products</a></li>
+              </ul>
+          </div
+        </div>
+      </div>
+     </div>
+    </footer>
+  </main>
+
+  
+  <script>
+    $(".carousel").owlCarousel({
+      margin: 20,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 2500,
+      autoplayHoverPause: true,
+      responsive: {
+        0:{
+          items:1,
+          nav: false
+        },
+        600:{
+          items:2,
+          nav: false
+        },
+        1000:{
+          items:3,
+          nav: false
+        }
+      }
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

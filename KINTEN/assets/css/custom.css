@@ -1,0 +1,253 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    color: rgb(13, 0, 115);
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+.baby-bg{
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    background-position: center;
+}
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.08);
+}
+.navbar-brand img{
+    width: 150px;
+}
+.navbar-nav{
+    align-items: center;
+}
+.navbar .navbar-nav .nav-link{
+    color: rgb(9, 5, 80);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.3rem 3rem;
+    font-family: 'Red Hat Display', sans-serif;   
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link .active{
+    color: rgb(250, 13, 53);
+}
+#About{
+    padding-top: 10rem;
+}
+.line{
+    width: 50px;
+    height: 20px;
+    color: rgb(250, 58, 90);
+}
+.home-img_1 img{
+    position: absolute;
+    width: 300px;
+    height: 230px;
+    border: 3px dashed red;
+    border-radius: 50%;
+    padding: 0.3rem;
+    clip-path: circle(50% 50%);
+}
+.home-img_2 img{
+    position: relative;
+    left: 140px;
+    width: 420px;
+    height: 360px;
+    border: 3px dashed red;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+.clouds li{
+    display: inline-block;
+    margin: 2rem;
+    padding: 2rem 4rem;
+    border-radius: 50%;
+}
+.program{
+    width: 100%;
+    height: 458 px;
+    background: url(../img/program-bg.svg) center no-repeat;
+}
+.class-img .icon{
+    margin-left: 170px;
+    background-color: rgb(252, 72, 102);
+    color: white;
+    border-radius: 50%;
+}
+.class-img .icon_2{
+    background-color: rgb(103, 181, 0);
+}
+.class-img .icon_3{
+    background-color: rgb(0, 195, 195);
+}
+.img_block{
+    border-bottom: 3px solid rgb(252, 72, 102);
+    border-radius: 8px;
+}
+.img_bloc{
+    border-bottom: 3px solid rgb(210, 210, 210);
+    border-radius: 8px;
+}
+.services{
+    padding-top: 18rem;
+}
+.links{
+    width: 340px;
+    padding: 1rem;
+    margin: 3rem 0;
+    border: 2px dashed rgb(210, 210, 210);
+    border-radius: 8rem;
+}
+.links span{
+    padding: 0 0.8rem;
+}
+.container_1{
+    width: 87%;
+    margin: auto;
+}
+
+.wrapper{
+    width: 100%;
+}
+.carousel{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+.carousel .card{
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 250px;
+    font-size: 90px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+.card img{
+    border-radius: 10px;
+}
+.hover_pink{
+    display: none;
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    background-color: rgb(252, 72, 102);
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 130px;
+    transition: width 2s;
+    transition-timing-function: ease-out;
+}
+.hover_pink button{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -70px;
+    font-size: 80px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 1;
+}
+.card:hover .hover_pink{
+    display: block;
+    /* background-color: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)); */
+}
+.teacher_img{
+    padding: 3rem 0 2rem 0;
+    margin: 1.5rem;
+    border: dashed rgb(210, 210, 210);
+    border-radius: 7rem;
+}
+.teacher_img img{
+    width: 110px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 1rem 2rem 0 5rem;
+}
+.question_area{
+    width: 100%;
+    height: 710px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/question_bg.jpg);
+}
+.container_2{
+    max-width: 70%;
+    margin: auto;
+}
+.for_register{
+    border: 8px solid rgba(128, 128, 128, 0.36);
+}
+.for_input input{
+    margin: 1.2rem 0;
+    padding: 0.8rem 1.3rem;
+    border: none;
+    background-color: rgba(10, 0, 149, 0.627);
+    color: black;
+}
+.for_input button{
+    padding: 0.7rem 1.3rem;
+    background-color: rgb(252, 72, 102);
+}
+.for_input input::placeholder{
+    color: white;
+}
+.client-1 img{
+    border: 2px dashed red;
+    border-radius: 50%;
+    padding: 0.3rem;
+    margin: 1rem 2rem 0 5rem;
+}
+.subscribe{
+    padding: 2rem 4rem;
+    /* border: 1px solid grey; */
+    line-height: 0.4rem;
+    align-items: center;
+    box-shadow: 1px 3px 10px 2px rgba(128, 128, 128, 0.36);
+}
+.subscribe-title p, h5{
+    margin: 0.5rem 0 0 5rem;
+}
+.for_email input{
+    padding: 1rem 23rem 1.2rem 2rem;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    outline: none;
+}
+.for_email button{
+    padding: 0.8rem;
+    margin-left: -3.4px;
+    border: none;
+    background-color: rgb(252, 72, 102);
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 55vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/question_bg.jpg);
+    border-top: 8px dotted rgba(44, 176, 199, 0.625);
+}
+.foot_img{
+    padding-right: 1.3rem;
+}
+.foot{
+    line-height: 13px;
+}
+.linkes li a{
+    line-height: 2.7rem;
+    color: rgb(164, 164, 164);
+    font-weight: 600;
+}
+.linkes li a:hover{
+    color: rgb(245, 61, 92);
+}
